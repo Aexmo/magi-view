@@ -30,7 +30,7 @@ label{display:flex;gap:6px;align-items:center;justify-content:center;color:#958b
   <div class="st" id="st"></div>
 </div>
 <script>
-const SALT = b64("gSinySHtl1qvUr9uRJfFsw=="), ITER = 150000, V = "0dc3cfa71fe0";
+const SALT = b64("gSinySHtl1qvUr9uRJfFsw=="), ITER = 150000, V = "f09055bd5e6a";
 function b64(s) { const bin = atob(s), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; }
 function say(t, err) { const el = document.getElementById("st"); el.textContent = t; el.className = "st" + (err ? " err" : ""); }
 async function unlock(pw, silent) {
